@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NotifyVC.swift
 //  NewNotifications
 //
 //  Created by Shin Park on 3/25/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NotifyVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

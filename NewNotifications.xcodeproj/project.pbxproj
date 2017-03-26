@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B0F024E51E87516B007BEEEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F024E41E87516B007BEEEF /* AppDelegate.swift */; };
-		B0F024E71E87516B007BEEEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F024E61E87516B007BEEEF /* ViewController.swift */; };
+		B0F024E71E87516B007BEEEF /* NotifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F024E61E87516B007BEEEF /* NotifyVC.swift */; };
 		B0F024EA1E87516B007BEEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F024E81E87516B007BEEEF /* Main.storyboard */; };
 		B0F024EC1E87516B007BEEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F024EB1E87516B007BEEEF /* Assets.xcassets */; };
 		B0F024EF1E87516B007BEEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F024ED1E87516B007BEEEF /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		B0F024E11E87516B007BEEEF /* NewNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F024E41E87516B007BEEEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0F024E61E87516B007BEEEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0F024E61E87516B007BEEEF /* NotifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyVC.swift; sourceTree = "<group>"; };
 		B0F024E91E87516B007BEEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0F024EB1E87516B007BEEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0F024EE1E87516B007BEEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,54 @@
 		B0F024E31E87516B007BEEEF /* NewNotifications */ = {
 			isa = PBXGroup;
 			children = (
-				B0F024E41E87516B007BEEEF /* AppDelegate.swift */,
-				B0F024E61E87516B007BEEEF /* ViewController.swift */,
-				B0F024E81E87516B007BEEEF /* Main.storyboard */,
-				B0F024EB1E87516B007BEEEF /* Assets.xcassets */,
-				B0F024ED1E87516B007BEEEF /* LaunchScreen.storyboard */,
-				B0F024F01E87516B007BEEEF /* Info.plist */,
+				B0F024F81E8751AA007BEEEF /* Model */,
+				B0F024F71E8751A0007BEEEF /* View */,
+				B0F024F61E875197007BEEEF /* Controller */,
+				B0F024F91E8751E8007BEEEF /* Resources */,
+				B0F024FA1E875200007BEEEF /* Util */,
 			);
 			path = NewNotifications;
+			sourceTree = "<group>";
+		};
+		B0F024F61E875197007BEEEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0F024E41E87516B007BEEEF /* AppDelegate.swift */,
+				B0F024E61E87516B007BEEEF /* NotifyVC.swift */,
+				B0F024F01E87516B007BEEEF /* Info.plist */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B0F024F71E8751A0007BEEEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0F024E81E87516B007BEEEF /* Main.storyboard */,
+				B0F024ED1E87516B007BEEEF /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B0F024F81E8751AA007BEEEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B0F024F91E8751E8007BEEEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0F024EB1E87516B007BEEEF /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0F024FA1E875200007BEEEF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0F024E71E87516B007BEEEF /* ViewController.swift in Sources */,
+				B0F024E71E87516B007BEEEF /* NotifyVC.swift in Sources */,
 				B0F024E51E87516B007BEEEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
